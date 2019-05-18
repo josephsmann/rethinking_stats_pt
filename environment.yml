@@ -6,5 +6,6 @@ dependencies:
 - pandas
 - pytorch
 - seaborn
+- xlrd
 - pip:
   - pyro-ppl
