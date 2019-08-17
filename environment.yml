@@ -1,11 +1,37 @@
-name: rethinking
+name: hv_pyro
+
+# Specify the conda channels that you wish to grab packages from, in order of priority.
 channels:
+- conda-forge
 - pytorch
+- fastai
+- defaults
+
+# Specify the packages that you would like to install inside your environment. Version numbers are allowed, and conda will automatically use its dependency solver to ensure that all packages work with one another.
 dependencies:
+- nodejs
+- pip
+- ipython
+- python=3.7
+- conda
+- ipykernel
 - jupyter
-- pandas
+- jupyterlab
+- scipy
+- numpy
 - pytorch
+- fastai
+- pandas
+- pyjanitor
+- xarray
+- holoviews
+- hvplot
+- datashader
+- dask
+- ipysheet
 - seaborn
-- xlrd
+- pymc3
+# There are some packages which are not conda-installable. You can put the pip dependencies here instead.
 - pip:
-  - pyro-ppl
+        - pyro-ppl
+        - numpyro
