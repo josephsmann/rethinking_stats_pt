@@ -31,6 +31,7 @@ dependencies:
 - ipysheet
 - seaborn
 - pymc3
+- panel
 # There are some packages which are not conda-installable. You can put the pip dependencies here instead.
 - pip:
         - pyro-ppl
