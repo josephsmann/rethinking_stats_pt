@@ -1,4 +1,4 @@
-# __this is my clone of  https://fehiepsi.github.io/rethinking-pyro/ __
+# ** this is my clone of  https://fehiepsi.github.io/rethinking-pyro/ **
 please get the real thing if that's what you're looking for.
 
 
