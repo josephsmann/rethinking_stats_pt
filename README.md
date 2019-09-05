@@ -1,3 +1,7 @@
+# ** this is my clone of  https://fehiepsi.github.io/rethinking-pyro/ **
+please get the real thing if that's what you're looking for.
+
+
 # Statistical Rethinking with PyTorch and Pyro
 
 [*Statistical Rethinking*](https://xcelab.net/rm/statistical-rethinking/) is an excellent book for applied [Bayesian data analysis](https://en.wikipedia.org/wiki/Bayesian_statistics). The [accompanying codes for the book](https://github.com/rmcelreath/rethinking) are written in **R** and **Stan**. They are then [ported to Python language](https://github.com/pymc-devs/resources/tree/master/Rethinking) using [PyMC3](https://docs.pymc.io/). Recently, [Pyro](http://pyro.ai/) emerges as a scalable and flexible Bayesian modeling tool (see its [tutorial page](http://pyro.ai/examples/)), so to attract statisticians to this new library, I decided to make a *Pyronic* version for the codes in this repository. Inspired by the *PyMC3onic* version, I keep the codes in this repository as close as possible to the original codes in the book.
